@@ -112,6 +112,7 @@ HLT;
 ```
 ## Output  
 
+![sub](https://user-images.githubusercontent.com/95066409/205075372-0cda1edd-032a-4e52-8250-6dbd09c89aa4.png)
 
 
 
@@ -151,87 +152,4 @@ HLT;
 
 ## Result :
  ALP on fundamental arithmetic and logical operations for 8086 is written and executed.
-
-name "ADDITION"
-org 300h
-MOV AX,05H;
-MOV BX,06H;
-ADD AX,BX;
-MOV CX,AX;
-MOV AX,00H;
-HLT;
-```
-
-## Output  
- 
- ![image](https://user-images.githubusercontent.com/95066409/205072553-9752fc4c-4140-42b3-bd31-1d95d22fe37b.png)
-
-
-## Subtraction   of 8 bit numbers  ALP 
-
-name "SUBTRACTION"
-org 200h
-MOV AX,05H;
-MOV BX,04H;
-SUB AX,BX;
-MOV CX,AX;
-MOV AH,00H;
-HLT;
- 
-## Output
-
-![image](https://user-images.githubusercontent.com/95066409/205071994-f566e674-3b9e-40a8-a0ae-11b9d922b2bd.png)
-
-
-
-## Multiplication of 8 bit numbers   alp 
-
-name "MULTIPLICATION"
-org 100h
-MOV AL,05H;
-MOV BL,02H;
-MUL BL;
-MOV CL,AL;
-MOV AL,00H;
-HLT;
-
-
- ## Output  
-
-![image](https://user-images.githubusercontent.com/95066409/205073634-495615f6-12ca-4be2-859f-c201bdd16c39.png)
-
-
-## Division alp 
-
-## Output  
-
-
-![image](https://user-images.githubusercontent.com/95066409/205070349-4932cff1-9ed6-4825-bf34-5cb0a685607d.png)
-
-## Division of 8 bit numbers ALP
-
-```
-name "DIVISION"
-org 700h
-MOV AL,40H;
-MOV BL,05H;
-DIV BL;
-MOV CL,AL;
-MOV AL,00H;
-HLT;
-```
-
-## OUTPUT
-
-![image](https://user-images.githubusercontent.com/95066409/205073776-a2aa9cad-59be-48a5-8b5b-42b8113f5cd7.png)
-
-
-
-## Result :
-
-ALP on fundamental arithmetic and logical operations for 8086 is written and executed.
-
-
-
-
 
