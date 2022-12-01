@@ -1,6 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
+```
 Name : Lathika Sunder
 Roll no : 212221230054
+```
 
 
 
@@ -94,6 +96,7 @@ HLT;
 ```
 ## Output  
 ![](add.png)
+![add](https://user-images.githubusercontent.com/95066409/205074469-7c2048be-af7a-4771-9278-fdb29b27f0da.png)
 
 ## Subtraction of 8 bit numbers  ALP 
 ### Program:
@@ -108,7 +111,10 @@ MOV AH,00H;
 HLT;
 ```
 ## Output  
-![](sub.png)
+
+
+
+
 ## Multiplication of 8 bit numbers ALP 
 ### Program:
 ```
@@ -123,6 +129,7 @@ HLT;
 ```
  ## Output  
 ![](mul.png)
+![mul](https://user-images.githubusercontent.com/95066409/205074789-0fed806f-997d-443c-ae92-057f1ac697fd.png)
 
 ## Division of 8 bit numbers ALP
 ### Program:
@@ -138,6 +145,9 @@ HLT;
 ```
 ## Output  
 ![](div.png)
+![div](https://user-images.githubusercontent.com/95066409/205075010-e762731c-694b-4c59-be56-4d4bd5b97771.png)
+
+
 
 ## Result :
  ALP on fundamental arithmetic and logical operations for 8086 is written and executed.
